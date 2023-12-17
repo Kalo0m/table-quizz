@@ -20,5 +20,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           workingDirectory: "packages/server"
           packageManager: "pnpm"
-          command: deploy src/index.ts --compatibility-date 2023-12-17
           environment: production
