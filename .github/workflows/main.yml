@@ -18,4 +18,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           workingDirectory: "packages/server"
-          name: "src/index.ts"
+          main: "src/index.ts"
