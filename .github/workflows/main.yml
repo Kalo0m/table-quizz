@@ -21,3 +21,4 @@ jobs:
           workingDirectory: "packages/server"
           packageManager: "pnpm"
           command: deploy src/index.ts
+          environment: production
